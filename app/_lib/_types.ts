@@ -7,7 +7,7 @@ type Card = {
     rank: Rank
 }
 
-type CardString = `${Suit}_${Rank}`
+type CardString = `${Suit}_${Rank}` // I am not using this type anywhere but I think it could be a valuable shorthand for future use
 
 type Deck = Card[]
 

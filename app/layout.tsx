@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'React Card Games',
+  title: 'React Games',
   description: 'By Thomas Randall',
 }
 

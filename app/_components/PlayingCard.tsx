@@ -66,4 +66,14 @@ const PlayingCardBack = function(){
     )
 }
 
-export { PlayingCard, PlayingCardBack }
+const LabelCard = function({ label }: {label: string}){
+    const cardBackground = 'https://picsum.photos/200/300'
+
+    return (
+        <div className={"border border-white rounded-xl text-center hover:border-red-400 " + commonCardClasses} style={{backgroundImage: `url(${cardBackground})`}}>
+            <h1 className="bg-slate-100/50 text-black mt-[50%] uppercase font-bold">{ label }</h1>
+        </div>
+    )
+}
+
+export { PlayingCard, PlayingCardBack, LabelCard }
